@@ -6,4 +6,9 @@ describe "grupo de pruebas para pepita" {
     assert.equals(100, pepita.energia())
   }
 
+  test "pepita puede volar" {
+    pepita.volar(5)
+    assert.equals(85, pepita.energia())
+  }
+
 }
